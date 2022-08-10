@@ -339,8 +339,8 @@ p {
         width: 70vw;
         height: 55vh;
         border-radius: 35vw 35vw 0 0;
-        bottom: -20vw;
-        left: 75vw;
+        bottom: -10vw;
+        right: -35vw;
     }
 
     .title-text {
