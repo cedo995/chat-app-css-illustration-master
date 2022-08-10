@@ -15,55 +15,58 @@
     --Very-Light-Magenta: hsl(289, 100%, 72%);
 }
 
-body {
-    background-color: var(--Light-Grayish-Violet);
-    z-index: -2;
-}
 
 html {
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
 }
 
-main {
-
+body {
+    background-color: var(--Light-Grayish-Violet);
+    z-index: -2;
     width: 100vw;
     height: 100vh;
     margin: 0;
-    padding: 0;
-    border: 0;
+}
+
+main {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
 }
 
 .decoration-purple {
     height: 85vh;
     width: 35vw;
     background: linear-gradient(var(--Light-Magenta), var(--Light-Violet));
-    position: absolute;
+    position: fixed;
     top: 0;
     left: -5vw;
     z-index: -1;
     border-radius: 0 0 17.5vw 17.5vw;
+
 }
 
 .decoration-white {
     height: 85vh;
     width: 35vw;
     background: rgb(241, 230, 250);
-    position: absolute;
-    bottom: -10vh;
-    right: -5vw;
+    position: fixed;
+    bottom: 0;
+    right: 0;
     z-index: -1;
     border-radius: 17.5vw 17.5vw 0 0;
+
 }
 
 .phone {
     background-color: var(--White);
     padding: 10px;
     border-radius: 30px;
-    height: 55vh;
+    height: 60vh;
     aspect-ratio: 9/16;
 }
 
@@ -336,11 +339,12 @@ p {
         width: 70vw;
         height: 55vh;
         border-radius: 35vw 35vw 0 0;
-        right: -35vw;
+        bottom: -20vw;
+        left: 75vw;
     }
 
     .title-text {
         margin-top: 1rem;
-        text-align: center;
+
     }
 }
