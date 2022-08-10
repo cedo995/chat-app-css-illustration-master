@@ -326,15 +326,17 @@ p {
     }
 
     .decoration-purple {
-        width: 40vw;
+        width: 70vw;
         height: 55vh;
-        border-radius: 0 0 20vw 20vw;
+        border-radius: 0 0 35vw 35vw;
+        left: -35vw;
     }
 
     .decoration-white {
-        width: 40vw;
+        width: 70vw;
         height: 55vh;
-        border-radius: 20vw 20vw 0 0;
+        border-radius: 35vw 35vw 0 0;
+        right: -35vw;
     }
 
     .title-text {
