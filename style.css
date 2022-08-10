@@ -63,7 +63,7 @@ main {
     background-color: var(--White);
     padding: 10px;
     border-radius: 30px;
-    height: 60vh;
+    height: 55vh;
     aspect-ratio: 9/16;
 }
 
@@ -302,7 +302,7 @@ p {
 
 .main-text {
     margin-left: 5vw;
-    width: 20vw;
+    width: 25vw;
 }
 
 .title-text {
@@ -322,7 +322,19 @@ p {
     }
 
     .main-text {
-        width: 80vw;
+        width: 85vw;
+    }
+
+    .decoration-purple {
+        width: 40vw;
+        height: 55vh;
+        border-radius: 0 0 20vw 20vw;
+    }
+
+    .decoration-white {
+        width: 40vw;
+        height: 55vh;
+        border-radius: 20vw 20vw 0 0;
     }
 
     .title-text {
